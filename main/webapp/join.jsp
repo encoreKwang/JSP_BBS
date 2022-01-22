@@ -24,7 +24,7 @@
   	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
   		<ul class="nav navbar-nav">
   			<li><a href="main.jsp">메인</a></li>
-  			<li><a href="main.jsp">게시판</a></li>
+  			<li><a href="bbs.jsp">게시판</a></li>
   		</ul>
   		<ul class="nav navbar-nav navbar-right">
   			<li class="dropdown">
@@ -32,15 +32,14 @@
   				data-toggle="dropdown" role="button" aria-haspopup="true"
   				aria-expanded="false">접속하기<span class="caret"></span></a>
   				<ul class="dropdown-menu">
-  					<li class="active"><a href="login.jsp">로그인</a></li>
-  					<li ><a href="join.jsp">회원가입</a></li>
+  					<li><a href="login.jsp">로그인</a></li>
+  					<li class="active" ><a href="join.jsp">회원가입</a></li>
   				</ul>
   			</li>
   		</ul>
   	</div>
   </nav>
   <div class="container">
-  	<div class="col-lg-4"></div>
   	<div class="col-lg-4">
   		<div class="jumbotron" style="padding-top: 20px;">
   			<form method="post" action="joinAction.jsp">
@@ -60,7 +59,7 @@
   							<input type="radio" name="userGender" autocomplete="off" value="남자" checked>남자
   						</label>
   						<label class="btn btn-primary active">
-  							<input type="radio" name="userGender" autocomplete="off" value="여자" checked>여자
+  							<input type="radio" name="userGender" autocomplete="off" value="여자">여자
   						</label>
   					</div> 
   				</div>
@@ -68,8 +67,8 @@
   					<input type="email" class="form-control" placeholder="이메일" name="userEmail" maxlength="50"> 
   				</div>
   				<input type="submit" class="btn btn-primary form-control" value="회원가입">
-  			
   			</form> 
+  		</div>
   	</div>
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
