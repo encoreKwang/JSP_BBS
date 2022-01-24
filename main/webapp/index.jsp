@@ -2,8 +2,8 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
   <head>
+  	<link rel="stylesheet" href="css/custom.css">
     <meta http-equiv="Content-Type" content= "text/html; charset=utf-8">
 	<title>JSP 게시판 웹사이트 </title>
   </head>
